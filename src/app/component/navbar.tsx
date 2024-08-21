@@ -9,11 +9,11 @@ const Navbar = () => {
           <section className="relative text-gray-600 body-font custom-background-animation bg-fixed bg-cover bg-center bg-no-repeat">
 
         <header className="text-gray-600 body-font">
-  <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
+  <div className="container mx-auto flex flex-wrap p-2 flex-col  items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-      <span className="ml-3 mt-4 ml-0 text-4xl text-blue-800">Hammad Portfolio</span>
+      <span className=" mt-4 ml-0 text-4xl text-blue-800">Hammad Portfolio</span>
     </a>
-    <nav className="text-gray-950 mt-4 md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+    <nav className="text-gray-950  mt-4 md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
       <Link href="/" className="mr-5 hover:text-blue-600">Home</Link>
       <Link href="#About" className="mr-5 hover:text-blue-600">About</Link>
       <Link href="#skills" className="mr-5 hover:text-blue-600">Skills</Link>

@@ -8,7 +8,7 @@ const Footer = () => {
           <section className="relative text-gray-600 body-font custom-background-animation bg-fixed bg-cover bg-center bg-no-repeat">
 
     <footer>
-      <div className="container px-5 py-8 mx-auto flex flex-col md:flex-row items-center justify-between">
+      <div className="container px-5 py-8 mx-auto flex flex-col  items-center justify-between">
         <div className="flex flex-col md:flex-row items-center">
           <span className="text-3xl sm:text-4xl md:text-5xl font-bold text-black">
             Hammad Portfolio
@@ -17,7 +17,7 @@ const Footer = () => {
             © 2024 Hammad Portfolio
           </p>
         </div>
-        <div className="flex mt-6 md:mt-0 space-x-6 md:space-x-8 py-4">
+        <div className="flex    mt-6 md:mt-7 space-x-6 md:space-x-8 py-4">
           <Link href="https://www.linkedin.com/in/hammad-ali-92165427b/" target='_blank'>
             <SiLinkedin className="text-3xl sm:text-5xl md:text-5xl text-[#0077B5] hover:scale-110 hover:opacity-80 transition-transform duration-300 ease-in-out" />
           </Link>
