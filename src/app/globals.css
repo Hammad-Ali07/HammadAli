@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradientBackground {
+  0% {
+    background: linear-gradient(270deg, #f0f8ff, #f5f7fa); /* Alice Blue to Ghost White */
+  }
+
+  20% {
+    background: linear-gradient(270deg, #e0ffff, #f5f7fa); /* Light Cyan to Ghost White */
+  }
+
+  40% {
+    background: linear-gradient(270deg, #f5fffa, #f8f9fa); /* Mint Cream to Snow White */
+  }
+
+  60% {
+    background: linear-gradient(270deg, #faf0e6, #e0ffff); /* Linen to Light Cyan */
+  }
+
+  80% {
+    background: linear-gradient(270deg, #f8f9fa, #f5fffa); /* Snow White to Mint Cream */
+  }
+
+  100% {
+    background: linear-gradient(270deg, #f0f8ff, #faf0e6); /* Alice Blue to Linen */
+  }
+}
+
+  
+      
+  
+  
+  .custom-background-animation {
+    animation: gradientBackground 15s ease infinite;
+  }
+  
