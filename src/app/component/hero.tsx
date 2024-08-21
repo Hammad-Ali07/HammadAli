@@ -17,7 +17,7 @@ const Hero = () => {
             transition={{ duration: 1 }}
           >
             <p className="text-green-800 text-5xl lg:inline-block">
-            I'm <br  />
+            {`I'm`} <br  />
             <Typewriter
               options={{
                 strings: ["Frontend Web Developer "],
